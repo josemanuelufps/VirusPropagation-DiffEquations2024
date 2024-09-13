@@ -1,5 +1,5 @@
 import numpy as np
-from simplyfied.sir_model import solve_sir
+from sir_model import solve_sir
 
 def run_sir_simulation():
     """
