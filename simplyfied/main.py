@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from logic import run_sir_simulation
+from simplyfied.logic import run_sir_simulation
 
 def main():
     """
