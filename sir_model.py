@@ -10,7 +10,7 @@ def sir_model(y, t, beta, gamma):
     
     Args:
         y : The variable
-        t : The time
+        t : The time (as this is a function that returns the model, is not used)
         beta : Transmission rate
         gamma : Recovery rate
 
@@ -28,6 +28,7 @@ def solve_sir(S0, I0, R0, beta, gamma, t):
     initial_conditions = [S0, I0, R0]
     
     # odeint is the integration of a ordinal diff equation
+    # see the oficial doc of scipy for more info
     solution = odeint(sir_model, initial_conditions, t, args=(beta, gamma))
         
     # The "T" attribute from solution is the separation of S, I and R
