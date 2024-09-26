@@ -108,3 +108,4 @@ if __name__ == "__main__":
     plot_dog_population()
     plot_tick_population()
     plt.show()
+

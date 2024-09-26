@@ -45,3 +45,4 @@ def run_rickettsiosis_simulation():
     
     # results for plotting
     return t, SH, IH, RH, SP, IP, SG, IG
+

@@ -49,3 +49,4 @@ def solve_rickettsiosis(SH0, IH0, RH0, SP0, IP0, SG0, IG0, params, t):
 
     # This is the separation of the variables, in a list.
     return solution.T
+
